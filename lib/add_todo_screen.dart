@@ -29,7 +29,7 @@ class AddTodoScreen extends StatelessWidget {
                   onPressed: () {
                     if (_controller.text.isNotEmpty) {
                       todoProvider.addTodo(_controller.text);
-                      Navigator.of(context).pop(); // Return to the main screen
+                      Navigator.of(context).pop(); 
                     }
                   },
                   child: const Text('Add To-Do'),

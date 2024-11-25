@@ -36,7 +36,7 @@ class EditTodoScreen extends StatelessWidget {
                   onPressed: () {
                     if (_controller.text.isNotEmpty) {
                       todoProvider.updateTodo(id, _controller.text);
-                      Navigator.of(context).pop(); // Return to the main screen
+                      Navigator.of(context).pop(); 
                     }
                   },
                   child: const Text('Update To-Do'),

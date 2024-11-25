@@ -5,7 +5,7 @@ import 'todo_model.dart';
 
 class TodoProvider with ChangeNotifier {
   final String baseUrl =
-      'https://crudcrud.com/api/0624bcddb1c147339a32e44bb63e8bbb/todos';
+      'https://crudcrud.com/api/d7f5fb7f171e42079289c587fb821101/todos';
   List<Todo> _todos = [];
 
   List<Todo> get todos => _todos;
